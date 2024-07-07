@@ -7,13 +7,5 @@ export const pageRoutes = createBrowserRouter([
     {
         path:'/',
         element:<App/>
-    },
-    {
-        path:'/login',
-        element:<LoginForm/>
-    },
-    {
-        path:'/logout',
-        element:<Logout/>
-    },
+    }
 ])
